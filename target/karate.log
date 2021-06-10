@@ -205,3 +205,207 @@ src/test/java/win/calc.feature:12
 21:48:06.420 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.CurrentName returned non-zero: -2147220991
 21:48:06.420 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.GetCurrentPropertyValue returned non-zero: -2147220991
 21:48:08.558 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+22:52:36.997 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:52:37.005 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623361957004
+22:52:39.189 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+22:52:40.444 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+22:52:40.654 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+22:52:41.439 [main] WARN  com.intuit.karate - failed to find window: Calculator
+22:52:41.440 [1623361961440] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+22:52:41.443 [1623361961440] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+22:52:41.945 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Calculator', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+22:52:43.148 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+22:53:39.309 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:53:39.315 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362019315
+22:53:41.557 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+22:53:42.766 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+22:53:42.857 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+22:53:44.415 [main] DEBUG com.intuit.karate - window found, will re-use: Junifer Login
+22:53:44.657 [main] DEBUG com.intuit.karate - find by locator(s): [#password] - retry #1
+22:53:47.710 [main] DEBUG com.intuit.karate - find by locator(s): [#password] - retry #2
+22:53:50.766 [main] DEBUG com.intuit.karate - find by locator(s): [#password] - retry #3
+22:53:53.844 [main] WARN  com.intuit.karate - find by locator(s): [#password]: failed after 3 retries and 9254 milliseconds
+22:53:53.856 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:5
+* waitFor('#password').input('Agasthya2210$')
+>>>> js failed:
+01: waitFor('#password').input('Agasthya2210$')
+<<<<
+org.graalvm.polyglot.PolyglotException: find by locator(s): [#password]: failed after 3 retries and 9254 milliseconds
+- com.intuit.karate.robot.RobotBase.retry(RobotBase.java:210)
+- com.intuit.karate.robot.RobotBase.retryForAny(RobotBase.java:708)
+- com.intuit.karate.robot.RobotBase.waitFor(RobotBase.java:689)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/juniferlogin.feature:5
+22:53:54.374 [main] DEBUG com.intuit.karate - after scenario, current window: 'Junifer Login' Window
+22:53:55.377 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+22:55:31.799 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:55:31.804 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362131804
+22:55:33.661 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+22:55:35.012 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+22:55:35.096 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+22:55:36.511 [main] DEBUG com.intuit.karate - window found, will re-use: Junifer Login
+22:55:38.435 [main] DEBUG com.intuit.karate - after scenario, current window: 'Junifer Login' Window
+22:55:39.406 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+22:59:01.190 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:59:01.196 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362341196
+22:59:02.870 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+22:59:04.301 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+22:59:04.397 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+22:59:05.010 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+22:59:05.013 [1623362345011] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+22:59:05.018 [1623362345011] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+22:59:05.516 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+22:59:06.344 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+22:59:43.032 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:59:43.038 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362383038
+22:59:45.128 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+22:59:46.327 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+22:59:46.410 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+22:59:46.910 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+22:59:46.911 [1623362386911] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+22:59:46.913 [1623362386911] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+22:59:47.414 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+22:59:48.306 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:00:32.395 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:00:32.400 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362432400
+23:00:34.437 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:00:35.545 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:00:35.633 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:00:36.156 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:00:36.157 [1623362436157] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:00:36.162 [1623362436157] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:00:36.659 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:00:37.482 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:01:26.749 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:01:28.627 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:01:29.731 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:01:29.819 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:01:30.811 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:01:30.815 [1623362490814] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:01:30.817 [1623362490814] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:01:31.317 [main] ERROR com.intuit.karate - classpath:win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+classpath:win/juniferlogin.feature:4
+23:02:59.357 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:02:59.371 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362579370
+23:03:01.635 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:03:02.841 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:03:02.926 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:03:03.446 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:03:03.448 [1623362583447] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:03:03.450 [1623362583447] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:03:03.950 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:03:05.179 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:05:09.616 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:05:09.616 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623362709616
+23:05:11.489 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:05:12.822 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:05:12.900 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:05:13.369 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:05:13.369 [1623362713369] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:05:13.384 [1623362713369] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:05:13.884 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:05:14.855 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:15:53.370 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:15:53.370 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623363353370
+23:15:55.312 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:15:56.638 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:15:56.700 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:15:57.028 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:15:57.028 [1623363357028] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:15:57.028 [1623363357028] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:15:57.539 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:15:58.398 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:20:17.465 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:20:17.465 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623363617465
+23:20:19.484 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:20:20.703 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:20:20.763 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:20:20.935 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:20:20.935 [1623363620935] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:20:20.935 [1623363620935] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:20:21.439 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:20:22.283 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:22:51.017 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:22:51.017 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623363771017
+23:22:52.475 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:22:53.817 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:22:53.879 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:22:54.270 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:22:54.270 [1623363774270] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:22:54.270 [1623363774270] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:22:54.774 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork: 'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:22:55.602 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:25:18.872 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:25:18.872 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623363918872
+23:25:20.701 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:25:22.138 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:25:22.222 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:25:22.544 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:25:22.560 [1623363922544] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:25:22.576 [1623363922544] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:25:23.050 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork:'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:25:23.862 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:32:56.063 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:32:56.063 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623364376063
+23:32:57.923 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:32:59.079 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:32:59.204 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:32:59.360 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:32:59.360 [1623364379360] DEBUG com.intuit.karate - command: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe], working dir: null
+23:32:59.360 [1623364379360] ERROR com.intuit.karate.shell.Command - command error: [D:sersadhuri.Chalamesktopunifer, UATurrentunifer.Thor.Client.exe] - Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+23:32:59.868 [main] ERROR com.intuit.karate - src/test/java/win/juniferlogin.feature:4
+* robot { window: 'Junifer Login', fork:'D:\Users\Madhuri.Chalam\Desktop\Junifer UAT\current\Junifer.Thor.Client.exe', highlight: true, highlightDuration: 500 }
+robot init failed: robot fork command failed: Cannot run program "D:sersadhuri.Chalamesktopunifer": CreateProcess error=2, The system cannot find the file specified
+src/test/java/win/juniferlogin.feature:4
+23:33:00.899 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+23:35:02.181 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:35:02.181 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623364502181
+23:35:04.134 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+23:35:05.359 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+23:35:05.437 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+23:35:05.562 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:35:05.562 [1623364505562] DEBUG com.intuit.karate - command: [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe], working dir: null
+23:35:06.139 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:35:06.154 [main] DEBUG com.intuit.karate - find window - retry #1
+23:35:12.146 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+23:35:12.146 [main] DEBUG com.intuit.karate - find window - retry #2
+23:35:16.051 [main] DEBUG com.intuit.karate - attached to process window: 'Junifer Login' Window - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe]
+23:35:23.914 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.GetCurrentPropertyValue returned non-zero: -2147220991
+23:35:20.528 [main] DEBUG com.intuit.karate - after scenario, current window: (stale) class com.sun.jna.platform.win32.COM.Unknown cannot be cast to class java.lang.Number (com.sun.jna.platform.win32.COM.Unknown is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+23:35:24.104 [main] DEBUG com.intuit.karate - will attempt to close window for: Junifer Login
+23:35:24.119 [main] DEBUG com.intuit.karate.shell.Command - closing command: 1623364505562
+23:35:24.198 [1623364505562] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe] working dir: null
+23:35:26.765 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
