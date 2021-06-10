@@ -3,10 +3,10 @@ Feature: windows calculator
   Scenario:
     * robot { window: 'Calculator', fork: 'calc', highlight: true, highlightDuration: 500 }
     * click('Clear')
-    * click('One')
-    * click('Plus')
-    * click('Two')
+    * click('1')
+    * click('Add')
+    * click('2')
     * click('Equals')
-    * match locate('#CalculatorResults').name == 'Display is 3'
+    * match locate('Result').Value == '3 '
     * screenshot()
-    * click('Close Calculator')
+    * click('Close')

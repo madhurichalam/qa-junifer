@@ -1,0 +1,207 @@
+15:10:34.861 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:10:37.286 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+15:10:38.669 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+15:10:38.888 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+15:10:40.612 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+15:10:42.201 [main] ERROR com.intuit.karate - cannot locate: 'One' ('Calculator' Window)
+15:10:42.212 [main] ERROR com.intuit.karate - classpath:win/calc.feature:6
+* click('One')
+>>>> js failed:
+01: click('One')
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: 'One' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.click(RobotBase.java:544)
+- <js>.:anonymous(Unnamed:1)
+
+classpath:win/calc.feature:6
+15:10:42.633 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+15:40:29.975 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:40:29.983 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623336029983
+15:40:32.033 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+15:40:33.285 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+15:40:33.483 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+15:40:34.996 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+15:40:36.594 [main] ERROR com.intuit.karate - cannot locate: 'One' ('Calculator' Window)
+15:40:36.604 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:6
+* click('One')
+>>>> js failed:
+01: click('One')
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: 'One' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.click(RobotBase.java:544)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/calc.feature:6
+15:40:37.140 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+15:40:38.221 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:29:55.119 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:29:55.126 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623356995125
+21:29:55.206 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:29:57.293 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:29:58.598 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:29:58.823 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:30:00.607 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:30:07.271 [main] ERROR com.intuit.karate - cannot locate: '#CalculatorResults' ('Calculator' Window)
+21:30:07.284 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match locate('#CalculatorResults').name == 'Display is 3'
+>>>> js failed:
+01: locate('#CalculatorResults').name
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: '#CalculatorResults' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:448)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/calc.feature:10
+21:30:07.671 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:30:08.896 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:33:33.927 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:33:33.933 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357213932
+21:33:34.077 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:33:36.036 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:33:37.417 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:33:37.494 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:33:38.757 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:33:45.327 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match ('Result')=='3'
+syntax error, expected '==' for match
+src/test/java/win/calc.feature:10
+21:33:45.714 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:33:46.700 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:34:02.399 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:34:02.408 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357242407
+21:34:02.511 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:34:05.025 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:34:06.381 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:34:06.480 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:34:07.781 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:34:14.501 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match ('Result')='3'
+syntax error, expected '==' for match
+src/test/java/win/calc.feature:10
+21:34:14.800 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:34:15.699 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:35:16.960 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:35:16.968 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357316966
+21:35:17.024 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:35:18.748 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:35:20.013 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:35:20.096 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:35:21.308 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:35:27.836 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match ('Result')== '3'
+syntax error, expected '==' for match
+src/test/java/win/calc.feature:10
+21:35:28.145 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:35:29.173 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:37:40.844 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:37:40.850 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357460849
+21:37:40.901 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:37:43.038 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:37:44.423 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:37:44.505 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:37:45.869 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:37:52.450 [main] ERROR com.intuit.karate - cannot locate: '#Results' ('Calculator' Window)
+21:37:52.459 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match locate('#Results').name == 'Display is 3'
+>>>> js failed:
+01: locate('#Results').name
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: '#Results' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:448)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/calc.feature:10
+21:37:52.791 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:37:53.957 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:38:37.324 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:38:37.329 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357517329
+21:38:37.374 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:38:39.385 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:38:40.557 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:38:40.750 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:38:42.458 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:38:48.928 [main] ERROR com.intuit.karate - cannot locate: '#Result' ('Calculator' Window)
+21:38:48.939 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match locate('#Result').name == 'Display is 3'
+>>>> js failed:
+01: locate('#Result').name
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: '#Result' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:448)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/calc.feature:10
+21:38:49.276 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:38:50.354 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:41:10.941 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:41:11.022 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357671021
+21:41:11.077 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:41:13.070 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:41:14.630 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:41:14.722 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:41:16.008 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:41:23.131 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match locate('Result').name == 'Display is 3'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'Result'
+  'Display is 3'
+
+src/test/java/win/calc.feature:10
+21:41:23.479 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:41:24.636 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:45:24.619 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:45:24.631 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357924630
+21:45:24.679 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:45:26.732 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:45:28.032 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:45:28.105 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:45:29.370 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:45:36.356 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:10
+* match locate('Result').Value == '3'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  '3 '
+  '3'
+
+src/test/java/win/calc.feature:10
+21:45:36.760 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:45:37.854 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:46:02.409 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:46:02.415 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623357962414
+21:46:02.463 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:46:04.706 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:46:06.441 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:46:06.514 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:46:07.735 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:46:15.194 [main] ERROR com.intuit.karate - cannot locate: 'Close Calculator' ('Calculator' Window)
+21:46:15.204 [main] ERROR com.intuit.karate - src/test/java/win/calc.feature:12
+* click('Close Calculator')
+>>>> js failed:
+01: click('Close Calculator')
+<<<<
+org.graalvm.polyglot.PolyglotException: cannot locate: 'Close Calculator' ('Calculator' Window)
+- com.intuit.karate.robot.RobotBase.locate(RobotBase.java:513)
+- com.intuit.karate.robot.RobotBase.click(RobotBase.java:544)
+- <js>.:anonymous(Unnamed:1)
+
+src/test/java/win/calc.feature:12
+21:46:15.362 [main] DEBUG com.intuit.karate - after scenario, current window: 'Calculator' Window
+21:46:16.354 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
+21:47:53.556 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:47:53.562 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623358073561
+21:47:53.611 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3 - ^$
+21:47:55.156 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+21:47:56.467 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+21:47:56.548 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+21:47:57.759 [main] DEBUG com.intuit.karate - window found, will re-use: Calculator
+21:48:06.418 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.GetCurrentPropertyValue returned non-zero: -2147220991
+21:48:06.395 [main] DEBUG com.intuit.karate - after scenario, current window: (stale) class com.sun.jna.platform.win32.COM.Unknown cannot be cast to class java.lang.Number (com.sun.jna.platform.win32.COM.Unknown is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+21:48:06.420 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.CurrentName returned non-zero: -2147220991
+21:48:06.420 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.GetCurrentPropertyValue returned non-zero: -2147220991
+21:48:08.558 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/calc.feature
