@@ -409,3 +409,40 @@ src/test/java/win/juniferlogin.feature:4
 23:35:24.119 [main] DEBUG com.intuit.karate.shell.Command - closing command: 1623364505562
 23:35:24.198 [1623364505562] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe] working dir: null
 23:35:26.765 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+15:01:51.450 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:01:51.450 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623679311450
+15:01:53.802 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+15:01:55.054 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+15:01:55.288 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+15:01:55.538 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+15:01:55.538 [1623679315538] DEBUG com.intuit.karate - command: [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe], working dir: null
+15:01:56.121 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+15:01:56.121 [main] DEBUG com.intuit.karate - find window - retry #1
+15:02:01.782 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+15:02:01.782 [main] DEBUG com.intuit.karate - find window - retry #2
+15:02:05.956 [main] DEBUG com.intuit.karate - attached to process window: 'Junifer Login' Window - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe]
+15:02:13.522 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.GetCurrentPropertyValue returned non-zero: -2147220991
+15:02:10.292 [main] DEBUG com.intuit.karate - after scenario, current window: (stale) class com.sun.jna.platform.win32.COM.Unknown cannot be cast to class java.lang.Number (com.sun.jna.platform.win32.COM.Unknown is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+15:02:13.707 [main] DEBUG com.intuit.karate - will attempt to close window for: Junifer Login
+15:02:13.707 [main] DEBUG com.intuit.karate.shell.Command - closing command: 1623679315538
+15:02:13.817 [1623679315538] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe] working dir: null
+15:02:16.461 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature
+15:11:27.656 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:11:27.661 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1623679887661
+15:11:29.801 [main] DEBUG c.intuit.karate.robot.win.ComLibrary - loaded: UIAutomationClient, clsid: {944DE083-8FB8-45CF-BCB7-C477ACB2F897}, majorVersion: 1, minorVersion: 0
+15:11:31.010 [main] DEBUG com.intuit.karate.robot.win.ComUtils - init: {FF48DBA4-60EF-4201-AA87-54103EEF594E}, interface id: {30CBE57D-D9D0-452A-AB13-7AC5AC4825EE}
+15:11:31.236 [main] DEBUG com.intuit.karate - screen dimensions: 0:0(1792:1006)
+15:11:31.563 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+15:11:31.585 [1623679891564] DEBUG com.intuit.karate - command: [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe], working dir: null
+15:11:33.460 [main] WARN  com.intuit.karate - failed to find window: Junifer Login
+15:11:33.461 [main] DEBUG com.intuit.karate - find window - retry #1
+15:11:37.742 [main] DEBUG com.intuit.karate - attached to process window: 'Junifer Login' Window - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe]
+15:11:45.306 [main] WARN  com.intuit.karate - failed to find window: So Energy UAT
+15:11:45.307 [main] DEBUG com.intuit.karate - find window - retry #1
+15:11:49.984 [main] WARN  com.intuit.karate.robot.win.ComRef - failed to get clickable point
+15:11:51.529 [main] WARN  com.intuit.karate.robot.win.ComRef - IUIAutomationElement.CurrentName returned non-zero: -2147220991
+15:11:51.361 [main] DEBUG com.intuit.karate - after scenario, current window: '' Pane
+15:11:51.568 [main] DEBUG com.intuit.karate - will attempt to close window for: 
+15:11:51.569 [main] DEBUG com.intuit.karate.shell.Command - closing command: 1623679891564
+15:11:51.641 [1623679891564] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [D:\Users\Madhuri.Chalam\Desktop\Junifer, UAT\current\Junifer.Thor.Client.exe] working dir: null
+15:11:52.732 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/win/juniferlogin.feature

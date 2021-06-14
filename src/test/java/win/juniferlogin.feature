@@ -5,3 +5,5 @@ Feature: junifer login
     * waitFor('Password:').click
     * input('Password:','Agasthya2210$')
     * click('Login')
+    * retry(5).window('So Energy UAT')
+    * click('Close')
